@@ -7,9 +7,7 @@ Build:
 
 Build with HiPE:
 > remove all files from _build
-
 > ERL_COMPILER_OPTIONS="[native,{hipe, [verbose, o3]}]" mix deps.compile --force
-
 > ERL_COMPILER_OPTIONS="[native,{hipe, [verbose, o3]}]" mix compile
 
 
