@@ -3,9 +3,7 @@ defmodule Http_test2.Router do
   # @compile {:hipe, [:verbose, :o3]}
 
   use Plug.Router
-  use Plug.Debugger
 
-  plug Plug.Parsers, parsers: [:erlencoded, :multipart]
   plug :match
   plug :dispatch
 
