@@ -1,4 +1,4 @@
-# elx-small-http-cowboy
+# elx_small_http_cowboy
 
 Minimal HTTP server for stress tests
 
