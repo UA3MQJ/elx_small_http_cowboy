@@ -28,8 +28,9 @@ defmodule HttpTest2.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    [{:plug, "~>1.0"},
-     {:cowboy, "~>1.0"},
-     {:distillery, "~> 1.0"}]
+    [
+      {:plug_cowboy, "~> 2.1"},
+      {:cowboy, "~> 2.7"},
+    ]
   end
 end
